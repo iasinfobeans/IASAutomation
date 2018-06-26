@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16956" started-at="2018-06-26T10:09:50Z" finished-at="2018-06-26T10:10:06Z">
+  <suite name="Default suite" duration-ms="25144" started-at="2018-06-26T11:57:06Z" finished-at="2018-06-26T11:57:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16956" started-at="2018-06-26T10:09:50Z" finished-at="2018-06-26T10:10:06Z">
+    <test name="Default test" duration-ms="25144" started-at="2018-06-26T11:57:06Z" finished-at="2018-06-26T11:57:32Z">
       <class name="com.ias.tests.LoginTest">
-        <test-method status="PASS" signature="testingLoginFunctionality()[pri:0, instance:com.ias.tests.LoginTest@42e26948]" name="testingLoginFunctionality" duration-ms="16925" started-at="2018-06-26T10:09:50Z" finished-at="2018-06-26T10:10:06Z">
+        <test-method status="PASS" signature="testingLoginFunctionality()[pri:0, instance:com.ias.tests.LoginTest@29f69090]" name="testingLoginFunctionality" duration-ms="25020" started-at="2018-06-26T11:57:07Z" finished-at="2018-06-26T11:57:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testingLoginFunctionality -->
