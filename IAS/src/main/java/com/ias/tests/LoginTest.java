@@ -21,7 +21,7 @@ public class LoginTest {
 		 * login.enterPassword(Utility.fetchPropertyValue("password"));
 		 * login.clickSignIn();
 		 */
-		WebDriver driver=Driver.getDriver(browserType);
+		WebDriver driver=Driver.getDriver();
 		driver.get(Prop.getTestData("applicationURL").toString());
 		LoginPageFactory loginPage = new LoginPageFactory(driver);
 	    loginPage.login(Prop.getTestData("username"),Prop.getTestData("password"));
