@@ -11,26 +11,17 @@ import com.ias.setup.Driver;
 import com.ias.util.Prop;
 
 public class LoginTest {
-	
+
 	private static Logger log = Logger.getLogger(LoginTest.class.getName());
 
-	@Test(groups= {"smoke","regression"})
+	@Test(groups = { "smoke", "regression" })
 	public static void testingLoginFunctionality() throws IOException {
 
-		//String browserType= Prop.getConfigValue("browser").toString();
-		String browserType = null;
-		/*
-		 * LoginPage login = new LoginPage(driver);
-		 * login.enterUserName(Utility.fetchPropertyValue("username"));
-		 * login.enterPassword(Utility.fetchPropertyValue("password"));
-		 * login.clickSignIn();
-		 */
-		WebDriver driver=Driver.getDriver(browserType);
-		//driver.get(Prop.getTestData("applicationURL").toString());
+		WebDriver driver = Driver.getDriver();
 		driver.get(Driver.getURL());
 		LoginPageFactory loginPage = new LoginPageFactory(driver);
-	    loginPage.login(Prop.getTestData("username"),Prop.getTestData("password"));
-				
-		Assert.assertEquals(driver.getCurrentUrl(),Prop.getTestData("successfulSignIn"));
+		loginPage.login(Prop.getTestData("username"), Prop.getTestData("password"));
+		Assert.assertEquals(driver.getCurrentUrl(), Prop.getTestData("successfulSignIn"));
 	}
+
 }

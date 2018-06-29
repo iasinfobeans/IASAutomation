@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="com.ias.util.LoggingListener"/>
   </listeners>
-  <test thread-count="1" name="firefox(failed)" parallel="tests">
-    <parameter name="testName" value="firefox"/>
+  <test thread-count="1" name="chrome(failed)" parallel="tests">
+    <parameter name="testName" value="chrome"/>
     <groups>
       <run>
         <include name="smoke"/>
@@ -18,5 +18,5 @@
         </methods>
       </class> <!-- com.ias.tests.LoginTest -->
     </classes>
-  </test> <!-- firefox(failed) -->
+  </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [IAS Automation Suite] -->
