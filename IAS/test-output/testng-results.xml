@@ -2,16 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25144" started-at="2018-06-26T11:57:06Z" finished-at="2018-06-26T11:57:32Z">
+  <suite name="IAS Automation Suite" duration-ms="40275" started-at="2018-06-29T08:56:24Z" finished-at="2018-06-29T08:57:04Z">
     <groups>
+      <group name="regression">
+        <method signature="LoginTest.testingLoginFunctionality()[pri:0, instance:com.ias.tests.LoginTest@25d078f]" name="testingLoginFunctionality" class="com.ias.tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.testingLoginFunctionality()[pri:0, instance:com.ias.tests.LoginTest@25d078f]" name="testingLoginFunctionality" class="com.ias.tests.LoginTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="25144" started-at="2018-06-26T11:57:06Z" finished-at="2018-06-26T11:57:32Z">
+    <test name="chrome" duration-ms="40275" started-at="2018-06-29T08:56:24Z" finished-at="2018-06-29T08:57:04Z">
       <class name="com.ias.tests.LoginTest">
-        <test-method status="PASS" signature="testingLoginFunctionality()[pri:0, instance:com.ias.tests.LoginTest@29f69090]" name="testingLoginFunctionality" duration-ms="25020" started-at="2018-06-26T11:57:07Z" finished-at="2018-06-26T11:57:32Z">
+        <test-method status="PASS" signature="testingLoginFunctionality()[pri:0, instance:com.ias.tests.LoginTest@25d078f]" name="testingLoginFunctionality" duration-ms="40168" started-at="2018-06-29T08:56:24Z" finished-at="2018-06-29T08:57:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testingLoginFunctionality -->
       </class> <!-- com.ias.tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- chrome -->
+  </suite> <!-- IAS Automation Suite -->
 </testng-results>

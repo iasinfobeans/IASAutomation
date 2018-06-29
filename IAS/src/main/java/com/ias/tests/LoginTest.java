@@ -2,6 +2,7 @@ package com.ias.tests;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,11 +11,14 @@ import com.ias.setup.Driver;
 import com.ias.util.Prop;
 
 public class LoginTest {
+	
+	private static Logger log = Logger.getLogger(LoginTest.class.getName());
 
-	@Test
+	@Test(groups= {"smoke","regression"})
 	public static void testingLoginFunctionality() throws IOException {
 
-		String browserType= Prop.getConfigValue("browser").toString();
+		//String browserType= Prop.getConfigValue("browser").toString();
+		String browserType = null;
 		/*
 		 * LoginPage login = new LoginPage(driver);
 		 * login.enterUserName(Utility.fetchPropertyValue("username"));
@@ -22,7 +26,8 @@ public class LoginTest {
 		 * login.clickSignIn();
 		 */
 		WebDriver driver=Driver.getDriver(browserType);
-		driver.get(Prop.getTestData("applicationURL").toString());
+		//driver.get(Prop.getTestData("applicationURL").toString());
+		driver.get(Driver.getURL());
 		LoginPageFactory loginPage = new LoginPageFactory(driver);
 	    loginPage.login(Prop.getTestData("username"),Prop.getTestData("password"));
 				
