@@ -26,11 +26,11 @@ public class Driver {
 			driver = new ChromeDriver();
 			break;
 		case "FireFox":
-			System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\driver\\geckodriver.exe");
+			System.setProperty("webdriver.firefox.driver", ".\\src\\main\\resources\\driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 		case "IE":
-			System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\driver\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", ".\\src\\main\\resources\\driver\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			break;
 		default:

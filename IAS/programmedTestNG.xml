@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="IAS Automation Suite" parallel="tests">
+  <listeners>
+    <listener class-name="com.ias.util.LoggingListener"/>
+  </listeners>
+  <test thread-count="1" name="chrome" parallel="tests">
+    <parameter name="testName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.ias.tests"/>
+    </packages>
+  </test> <!-- chrome -->
+</suite> <!-- IAS Automation Suite -->

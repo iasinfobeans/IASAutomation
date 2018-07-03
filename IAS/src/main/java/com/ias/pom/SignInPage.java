@@ -1,18 +1,11 @@
 package com.ias.pom;
 
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Reporter;
-
 import com.ias.setup.Driver;
-import com.ias.util.Prop;
-
 import io.qameta.allure.Step;
 
 public class SignInPage {
@@ -21,6 +14,11 @@ public class SignInPage {
 	static WebDriver driver;
 	
 	private static Logger log = Logger.getLogger(Driver.class.getName());
+	
+	public SignInPage(WebDriver driver){
+        SignInPage.driver=driver;
+        PageFactory.initElements(driver,this);
+    }
 	
 	@FindBy(id="user_login")
 	static WebElement usernameplaceholder;

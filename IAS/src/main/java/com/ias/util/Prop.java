@@ -7,8 +7,6 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
-import com.ias.setup.Driver;
-
 public class Prop {
 
 	private static Logger log = Logger.getLogger(Prop.class.getName());

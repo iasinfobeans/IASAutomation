@@ -1,0 +1,1 @@
+{"uuid":"014f0d71-b74f-436a-ba52-cd30ad0b6eef","name":"com.ias.tests.Login.testSetup","description":"","start":1530537170267,"stop":1530537181038,"children":["66924707-a4d6-4365-8384-2d2045a17357"],"befores":[{"name":"testSetup","status":"passed","stage":"finished","description":"","start":1530537170267,"stop":1530537181038}]}

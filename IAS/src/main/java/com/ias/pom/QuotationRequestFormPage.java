@@ -1,15 +1,11 @@
 package com.ias.pom;
 
-import java.io.IOException;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Reporter;
-
 import com.ias.setup.Driver;
 import com.ias.util.Prop;
 

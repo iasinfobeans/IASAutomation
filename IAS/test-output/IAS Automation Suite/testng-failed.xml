@@ -12,11 +12,12 @@
       </run>
     </groups>
     <classes>
-      <class name="com.ias.tests.LoginTest">
+      <class name="com.ias.tests.Login">
         <methods>
-          <include name="testingLoginFunctionality"/>
+          <include name="testingGetaQuoteFunctionality"/>
+          <include name="testSetup"/>
         </methods>
-      </class> <!-- com.ias.tests.LoginTest -->
+      </class> <!-- com.ias.tests.Login -->
     </classes>
   </test> <!-- chrome(failed) -->
 </suite> <!-- Failed suite [IAS Automation Suite] -->

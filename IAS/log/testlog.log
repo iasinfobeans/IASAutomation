@@ -1,0 +1,45 @@
+2018-07-03 12:31:44 INFO  DriverScript:64 - Env : qa
+2018-07-03 12:31:44 INFO  DriverScript:65 - Browser :chrome
+2018-07-03 12:31:44 INFO  DriverScript:66 - TestSuite : smoke
+2018-07-03 12:31:44 INFO  DriverScript:176 - Generated programmedTestNG.xml file: C:\Users\Shefali\git\IASAutomationProject\IAS\programmedTestNG.xml
+2018-07-03 12:31:53 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:03 INFO  Driver:20 - testName : testingLoginFunctionality
+2018-07-03 12:32:03 INFO  Driver:21 - Started Execution for >>> testingLoginFunctionality from class com.ias.tests.Login with Thread ID - 27 with Thread Name - TestNG-tests-1 with Thread Group - org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=com.ias.setup.DriverScript,maxpri=10]
+2018-07-03 12:32:03 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:03 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:04 INFO  Driver:115 - entered username
+2018-07-03 12:32:04 INFO  Driver:117 - entered password
+2018-07-03 12:32:04 INFO  Driver:122 - selecting customer account
+2018-07-03 12:32:04 INFO  Driver:124 - Selected the user type
+2018-07-03 12:32:10 INFO  Driver:30 - Dashboard displayed
+2018-07-03 12:32:10 INFO  Driver:32 - PASSED: testingLoginFunctionality
+2018-07-03 12:32:13 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:25 INFO  Driver:20 - testName : testingGetaQuoteFunctionality
+2018-07-03 12:32:25 INFO  Driver:21 - Started Execution for >>> testingGetaQuoteFunctionality from class com.ias.tests.Login with Thread ID - 27 with Thread Name - TestNG-tests-1 with Thread Group - org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=com.ias.setup.DriverScript,maxpri=10]
+2018-07-03 12:32:28 INFO  Driver:100 - clicked on get a quote
+2018-07-03 12:32:28 INFO  Driver:103 - Choose a salutation
+2018-07-03 12:32:28 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:106 - Entered First Name
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:109 - Entered Last Name
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:112 - Entered Email address
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:117 - Entered job title
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:120 - Entered Company Name
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:123 -  Entered street
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:29 INFO  Driver:126 - Entered City
+2018-07-03 12:32:29 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:30 INFO  Driver:129 - Entered Postal Code
+2018-07-03 12:32:30 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:30 INFO  Driver:132 - Entered State or province
+2018-07-03 12:32:30 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:30 INFO  Driver:135 - Entered Country
+2018-07-03 12:32:30 INFO  Prop:40 - test data file loaded
+2018-07-03 12:32:30 INFO  Driver:138 - Entered Website Url
+2018-07-03 12:32:30 INFO  Driver:145 - clicked on get a quote
+2018-07-03 12:32:30 INFO  Driver:39 - FAILED: testingGetaQuoteFunctionality
